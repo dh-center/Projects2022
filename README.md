@@ -35,5 +35,4 @@ Tell other users how to install your project locally. Optionally, you can add a 
 5) Usage | использование: The section where you instruct other people on how to use your project after installation. Add screenshots and detailed instructions.
 6) Contributing | участие: If you're willing to make your project public and want to get help from the community, include this section in your description. Describe your specific preferences for contributions, explain to other developers how best to contribute to your work.
 7) Authors | авторы: include a section with credits and contacts.
-6) Comparison with analogues | сравнение: how your project is similar to or different from other projects 
-7) License | лицензия: If relevant, include a license section for your project. For more information on choosing a license, check out the GitHub licensing guide
+8) License | лицензия: If relevant, include a license section for your project. For more information on choosing a license, check out the GitHub licensing guide
