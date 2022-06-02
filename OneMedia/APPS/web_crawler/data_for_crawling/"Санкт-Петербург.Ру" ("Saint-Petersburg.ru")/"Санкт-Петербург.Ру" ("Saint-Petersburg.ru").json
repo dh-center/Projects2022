@@ -1,0 +1,47 @@
+{
+    "name": "\"Санкт-Петербург.Ру\" (\"Saint-Petersburg.ru\")",
+    "link": "https://saint-petersburg.ru",
+    "source_meta": {
+        "type": "Электронное периодическое издание ",
+        "license": "Эл № 77 - 4423",
+        "founders": "Открытое акционерное общество \"СПбНьюз\"",
+        "address": "Санкт-Петербург г., ул. Профессора Попова, д. 23, лит. А, пом. 16-Н",
+        "language": "английский, русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://saint-petersburg.ru/rss/spbru.rss",
+            "type": "rss",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://saint-petersburg.ru",
+        "links_tags": [],
+        "title_tag": "",
+        "author_tags": "div[itemprop='author']",
+        "body_tag": [
+            "div.content"
+        ],
+        "decompose_tags": [],
+        "text_tags": "div[itemprop='about'], div[itemprop='articleBody'] p"
+    }
+}

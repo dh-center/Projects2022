@@ -1,0 +1,6 @@
+/session_name.session
+/session_name.session-journal
+/venv/
+/.idea/
+/BUILD_DEPLOY/.env
+*.log

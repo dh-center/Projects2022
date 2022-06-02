@@ -1,0 +1,47 @@
+{
+    "name": "Naked Science",
+    "link": "https://naked-science.ru",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 70708",
+        "founders": "Мартиросян Р.М.",
+        "address": "111674, Москва г., ул. Льва Яшина, д. 5, к. 1, кв. 97",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://naked-science.ru/feedrss.xml",
+            "type": "rss",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://naked-science.ru",
+        "links_tags": [],
+        "title_tag": "",
+        "author_tags": "div.title div.meta-item_author",
+        "body_tag": [
+            "div.content"
+        ],
+        "decompose_tags": [],
+        "text_tags": "div.post-lead p, div.body p, div.body h2, div.body figcaption"
+    }
+}

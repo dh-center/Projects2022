@@ -1,0 +1,47 @@
+{
+    "name": "NewsFrol",
+    "link": "https://newsfrol.ru",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 67963",
+        "founders": "Тарновский Ф.А.",
+        "address": "353460, Краснодарский край, г. Геленджик, ул. Южная, д. 35, литер 2, кв.85",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://newsfrol.ru/news-rss.php",
+            "type": "rss",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://newsfrol.ru",
+        "links_tags": [],
+        "title_tag": "",
+        "author_tags": "",
+        "body_tag": [
+            "div.posts-list"
+        ],
+        "decompose_tags": [],
+        "text_tags": "div.padding_text p, div.padding_text h2"
+    }
+}

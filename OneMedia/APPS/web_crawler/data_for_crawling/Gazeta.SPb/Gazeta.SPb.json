@@ -1,0 +1,47 @@
+{
+    "name": "Gazeta.SPb",
+    "link": "https://gazeta.spb.ru",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 73908",
+        "founders": "Акционерное общество \"Открытые Медиа\"",
+        "address": "197376, г. Санкт-Петербург, ул. Профессора Попова, д. 23, лит. М, пом. 9-Н, БЦ \"Сальвадор\", оф. 8",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://gazeta.spb.ru/feed",
+            "type": "rss",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://gazeta.spb.ru",
+        "links_tags": [],
+        "title_tag": "",
+        "author_tags": "",
+        "body_tag": [
+            "div.post-content "
+        ],
+        "decompose_tags": [],
+        "text_tags": "p"
+    }
+}

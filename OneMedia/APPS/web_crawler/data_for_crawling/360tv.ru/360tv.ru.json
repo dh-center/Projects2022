@@ -1,0 +1,47 @@
+{
+    "name": "360tv.ru",
+    "link": "https://360tv.ru",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 70721",
+        "founders": "акционерное общество \"Телеканал 360\"",
+        "address": "119021, Москва г., б-р Зубовский, д.4",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://360tv.ru/rss",
+            "type": "rss",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://360tv.ru",
+        "links_tags": [],
+        "title_tag": "",
+        "author_tags": "",
+        "body_tag": [
+            "article.content-block"
+        ],
+        "decompose_tags": [],
+        "text_tags": "h3.content-subheader, section.news-text p, section.news-text h2, section.news-text.li"
+    }
+}

@@ -1,0 +1,442 @@
+.listnews {
+    font-family: sans-serif;
+    border: 2px solid #4b265e;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.additional-margin {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding-left: 3px;
+}
+
+.extra-additional-margin {
+    margin-bottom: 3px;
+    margin-top: 15px;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */
+{
+    opacity: 0;
+}
+
+.big-additional-margin {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.my-card-body {
+    background-color: rgba(255, 220, 220, 0.55);
+}
+
+.my-card-body:hover {
+    background-color: rgba(255, 21, 21, 0.2);
+}
+
+.my-btn-one {
+    background-color: rgba(255, 112, 112, 0.8) !important;
+    border-color: rgba(255, 102, 102, 0.7) !important;
+}
+
+.my-btn-second {
+    background-color: rgb(152, 0, 0) !important;
+    border-color: rgba(255, 102, 102, 0.7) !important;
+}
+
+.my-btn-third {
+    background-color: rgba(197, 4, 4, 0.7) !important;
+    border-color: rgba(255, 102, 102, 0.7) !important;
+}
+
+.my-btn-fourth {
+    background-color: rgb(112, 0, 0) !important;
+    border-color: rgba(255, 102, 102, 0.7) !important;
+}
+
+.navbar-default.navbar-trans .nav-link:before {
+    background-color: rgba(227, 15, 46, 0.73);
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #b81b0b !important;
+}
+
+.navbar-default .dropdown .dropdown-menu {
+    border-top: 4px solid #ff0048 !important;
+
+}
+
+.my-btn-two {
+    background-color: rgba(250, 64, 64, 0.8) !important;
+    border-color: rgba(255, 102, 102, 0.7) !important;
+}
+
+.my-btn-two:hover {
+    background-color: rgba(250, 64, 64, 0.53) !important;
+    border-color: rgba(255, 102, 102, 0.36) !important;
+}
+
+.my-btn-one:hover, .my-btn-second:hover, .my-btn-third:hover, .my-btn-fourth:hover {
+    background-color: rgba(253, 162, 162, 0.8) !important;
+    border-color: rgba(255, 102, 102, 0.7) !important;
+}
+
+.form-check-input:focus{
+    border-color: rgba(253, 162, 162, 0.8) !important;
+    box-shadow: 0 0 0 0.25rem rgba(176, 217, 115, 0.13) !important;
+}
+
+.form-switch .form-check-input:focus{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e") !important;
+}
+
+.tabs-style {
+    background-color: rgba(232, 203, 203, 0.53);
+    border: 1px solid rgba(232, 203, 203, 0.5);
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tabs-style:hover {
+    background-color: rgba(248, 144, 144, 0.34);
+    border: 1px solid rgba(208, 192, 192, 0.38);
+}
+
+.searchcontainer {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 90, 90, 0.07);
+}
+
+.querycontainer {
+    border-radius: 10px;
+    border: 1px solid rgba(122, 0, 0, 0.43);
+    background-color: rgba(255, 175, 175, 0.09);
+}
+
+.user-query{
+    border-radius: 3px !important;
+    border-width: 0 !important;
+}
+
+.eye-button{
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.my-nav-tabs {
+    border-width: 0px !important;
+}
+
+.run-filter-one {
+    border-width: 10px !important;
+    border-color: rgba(250, 0, 0, 0.68) !important;
+    border-radius: 3px 3px 0 0 !important;
+    background-color: rgba(236, 191, 191, 0.7);
+}
+
+.multiselect.dropdown-toggle.custom-select {
+    background-color: rgba(255, 168, 168, 0.32);
+    border-width: 0px;
+    border-radius: 3px;
+}
+
+.multiselect.dropdown-toggle.custom-select:hover {
+    background-color: rgba(8, 69, 255, 0.12);
+}
+
+.my-fonts {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.input-height {
+    height: 34px;
+}
+
+.on-hover-outbound:focus {
+    border-color: #ff687a !important;
+    box-shadow: 0 0 7px rgba(255, 71, 55, 0.7) !important;
+}
+
+.mx-input:focus {
+    box-shadow: 0 0 7px rgba(255, 71, 55, 0.7);
+    border-color: #ff687a !important;
+}
+
+.mx-input:hover {
+    box-shadow: 0 0 7px rgba(255, 71, 55, 0.5);
+    border-color: #ff687a !important;
+}
+
+.mx-datepicker-main {
+    color: #321616 !important;
+}
+
+.multiselect-group.dropdown-item.active {
+    background-color: rgba(249, 203, 204, 1) !important;
+}
+
+.multiselect-option.dropdown-item.multiselect-group-option-indented.active {
+    background-color: rgba(167, 167, 167, 0.22) !important;
+}
+
+.nav-tab-my-hover:hover {
+    background-color: rgba(172, 0, 0, 0.05) !important;
+}
+
+.my-active-empty {
+    color: rgba(0, 0, 0, 0.89) !important;
+    border: solid rgba(134, 29, 29, 0.53) !important;
+    border-width: 0 0 1px 0 !important;
+    background-color: rgba(255, 0, 0, 0.05) !important;
+}
+
+.my-active-above {
+    color: rgba(0, 0, 0, 0.89) !important;
+    border: solid rgba(134, 29, 29, 0.53) !important;
+    border-width: 1px 1px 0px 1px !important;
+    background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
+.my-active-empty-last {
+    color: rgba(0, 0, 0, 0.89) !important;
+    border: solid !important;
+    border-width: 1px 1px 1px 0 !important;
+    border-color: rgba(255, 0, 0, 0) rgba(134, 29, 29, 0.53) rgba(134, 29, 29, 0.53) rgba(255, 0, 0, 0) !important;
+    background-color: rgba(255, 0, 0, 0.05) !important;
+    border-top-right-radius: 0 !important;
+}
+
+.my-active {
+    color: rgba(0, 0, 0, 0.89) !important;
+    border: solid rgba(134, 29, 29, 0.53) !important;
+    border-width: 0 1px 1px 1px !important;
+    background-color: rgba(255, 0, 0, 0.05) !important;
+    border-radius: 0 0 5px 5px !important;
+}
+
+.runtime-content {
+    color: rgba(0, 0, 0, 0.89) !important;
+    border: solid rgba(134, 29, 29, 0.53) !important;
+    border-width: 0 1px 0 1px !important;
+    background-color: rgba(255, 0, 0, 0.05) !important;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.my-active-empty {
+    color: rgba(0, 0, 0, 0.89) !important;
+    border: solid !important;
+    border-width: 1px 0 1px 0 !important;
+    border-color: rgba(255, 0, 0, 0) rgba(255, 0, 0, 0) rgba(134, 29, 29, 0.53) rgba(255, 0, 0, 0) !important;
+    background-color: rgba(255, 0, 0, 0.05) !important;
+    border-radius: 0 !important;
+}
+
+.my-not-active {
+    color: black;
+    border: solid !important;
+    border-width: 1px 1px 1px 1px !important;
+    border-color: rgba(134, 29, 29, 0.53) rgba(0, 225, 255, 0.19) rgba(0, 225, 255, 0.19) rgba(5, 221, 250, 0.19) !important;
+    background-color: rgba(253, 0, 0, 0.11) !important;
+    border-radius: 0px 0px 5px 5px !important;
+    color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.my-not-active-above {
+    color: black;
+    border: solid !important;
+    border-width: 1px 1px 1px 1px !important;
+    border-color: rgba(0, 225, 255, 0.19) rgba(0, 225, 255, 0.19) rgba(134, 29, 29, 0.53) rgba(5, 221, 250, 0.19) !important;
+    background-color: rgba(253, 0, 0, 0.11) !important;
+    border-radius: 5px 5px 0px 0px !important;
+    color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.toggle-expand {
+    position: absolute;
+    right: 5px;
+    color: rgba(255, 34, 34, 0.33);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.toggle-expand-not-absolute {
+    color: rgba(255, 34, 34, 0.33) !important;
+}
+
+.toggle-expand-not-absolute:hover{
+    color: rgba(164, 4, 4, 0.33) !important;
+}
+
+.mx-calendar-content .cell.in-range, .mx-calendar-content .cell.hover-in-range {
+    background-color: rgba(255, 0, 0, 0.08) !important;
+}
+
+.mx-calendar-content .cell.active {
+    background-color: rgba(255, 0, 0, 0.45) !important;
+}
+
+#spanButton {
+    background-color: rgba(236, 191, 191, 0.7) !important;
+    border-color: rgba(135, 75, 75, 0.2) !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+}
+
+#graphcontainer {
+    height: 30%;
+}
+
+.chartjs-size-monitor {
+    height: 100px;
+    border: 1px solid black;
+}
+
+.rounded-border {
+    border: solid rgba(134, 29, 29, 0.53);
+    border-width: 1px 1px 0 1px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 15px 15px 5px 15px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.rounded-border-bottom {
+    border: solid rgba(134, 29, 29, 0.53);
+    border-width: 0px 1px 1px 1px;
+    border-radius: 0 0 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.form-check-input:checked {
+    background-color: #d38b8b !important;
+    border-color: rgba(127, 21, 21, 0.43) !important;
+}
+
+
+.startDate {
+    width: 225px !important;
+}
+
+.my-navbar-one {
+    background-color: rgba(232, 203, 203, 0.44) !important;
+}
+
+/* ------------------------------ */
+
+
+.center-svg {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
+div#layout {
+    text-align: center;
+}
+
+div#container {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.bar {
+    fill: rgba(75, 38, 94, 0.6);
+}
+
+text {
+    font-size: 12px;
+    fill: #000000;
+}
+
+path {
+    stroke: #780000;
+}
+
+line {
+    stroke: #bd0303;
+}
+
+line#limit {
+    stroke: #ff1638;
+    stroke-width: 3;
+    stroke-dasharray: 3 6;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+.grid .tick line {
+    stroke: #02739c;
+    stroke-opacity: 0.3;
+}
+
+text.divergence {
+    font-size: 12px;
+    fill: #2F4A6D;
+}
+
+text.value {
+    font-size: 12px;
+}
+
+text.title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+text.label {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+text.source {
+    font-size: 10px;
+}
+
+.chosen_btn{
+    background-color: gray !important;
+}
+
+.doughnut-chart-label {
+    background-size: 10% 15% !important;
+    background: transparent url("../files/thunder.png") no-repeat center 38%;
+}
+
+img#itmo_logo:hover {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: rgba(255, 0, 0, 0.15);
+    -webkit-border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(131, 0, 0, 0.32);
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(101, 0, 0, 0.37);
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(217, 0, 0, 0.18);
+}

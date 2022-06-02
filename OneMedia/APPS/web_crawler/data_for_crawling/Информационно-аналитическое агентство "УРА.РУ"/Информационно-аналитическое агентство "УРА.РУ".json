@@ -1,0 +1,55 @@
+{
+    "name": "Информационно-аналитическое агентство \"УРА.РУ\"",
+    "link": "https://ura.news",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 77908",
+        "founders": "Общество с ограниченной ответственностью \"Сибирско-Уральская медиакомпания\"",
+        "address": "620000, Свердловская обл., г. Екатеринбург, ул. Карла Либкнехта, д. 5",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://ura.news/sitemap.xml",
+            "type": "robots.txt",
+            "allow_redirects": true,
+            "update_start": true,
+            "index": [
+                0,
+                100,
+                1,
+                -1
+            ]
+        },
+        "main_link": "https://ura.news",
+        "links_tags": [],
+        "title_tag": "h1.publication-title",
+        "author_tags": "div.publication-author div.author-name",
+        "body_tag": [
+            "div.vc-publication-center"
+        ],
+        "decompose_tags": [
+            "p.yandex-rss-hidden"
+        ],
+        "text_tags": "h3.publication-subtitle, div.item-text p"
+    }
+}

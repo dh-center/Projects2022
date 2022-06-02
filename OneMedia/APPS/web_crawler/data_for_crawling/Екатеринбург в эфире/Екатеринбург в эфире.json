@@ -1,0 +1,51 @@
+{
+    "name": "Екатеринбург в эфире",
+    "link": "https://ekb-on-air.ru",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 67666",
+        "founders": "Сорокин С.Ю.",
+        "address": "173008, Новгородская обл., г. Великий Новгород, ул. Большая Санкт-Петербургская, д. 110, кв. 99",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://ekb-on-air.ru",
+            "type": "start_page",
+            "allow_redirects": true,
+            "decode": "T",
+            "index": []
+        },
+        "decode": "ignore",
+        "main_link": "https://ekb-on-air.ru",
+        "links_tags": [
+            "div.post-info > font.post-title > a"
+        ],
+        "title_tag": "h1.entry-title",
+        "author_tags": "",
+        "body_tag": [
+            "div.articleq"
+        ],
+        "decompose_tags": [],
+        "text_tags": ""
+    }
+}

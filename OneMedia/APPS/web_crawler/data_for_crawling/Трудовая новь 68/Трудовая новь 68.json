@@ -1,0 +1,52 @@
+{
+    "name": "Трудовая новь 68",
+    "link": "https://gazetarasskazovo.ru",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 81610",
+        "founders": "Общество с ограниченной ответственностью \"Издательский дом \"Тамбов\"",
+        "address": "392000, Тамбовская обл., г. Тамбов, ш. Моршанское, д. 14 а",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://gazetarasskazovo.ru",
+            "type": "start_page",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://gazetarasskazovo.ru",
+        "links_tags": [
+            "div.other a",
+            "div.photo a",
+            "div.edition a",
+            "div.items:nth-of-type(1) a"
+        ],
+        "title_tag": "h1.cm-title",
+        "author_tags": "div.authors span.item",
+        "body_tag": [
+            "section.cols"
+        ],
+        "decompose_tags": [],
+        "text_tags": "h2.cm-lead, div.quote, div.content-block-text p"
+    }
+}

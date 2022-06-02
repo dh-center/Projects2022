@@ -1,0 +1,57 @@
+{
+    "name": "ТАСС-НАУКА",
+    "link": "https://nauka.tass.ru",
+    "source_meta": {
+        "type": "Информационное агентство ",
+        "license": "№ 03247",
+        "founders": "федеральное государственное унитарное предприятие \"Информационное телеграфное агентство России (ИТАР-ТАСС)\"",
+        "address": "125993, Москва г., Тверской бульвар, д.10-13",
+        "language": "английский, русский, арабский, испанский, немецкий, французский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://nauka.tass.ru",
+            "type": "start_page",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://nauka.tass.ru",
+        "links_tags": [
+            "a.sliderTapeFrame_frame__3w6gq",
+            "a.flatCard_link__RANjL"
+        ],
+        "title_tag": "h1.news-header__title, h1.article__title-wrap",
+        "author_tags": "",
+        "body_tag": [
+            "div.news",
+            "div.article-inner"
+        ],
+        "decompose_tags": [
+            "div.column",
+            "div.text-include-aside",
+            "div.social-news-buttons",
+            "div.news-media",
+            "div.article-actions"
+        ],
+        "text_tags": ""
+    }
+}
