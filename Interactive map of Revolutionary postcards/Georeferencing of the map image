@@ -1,0 +1,6 @@
+Once you've found an image to georeference, you need to launch ArcMap and set up your environment:
+
+1. Add a base map by clicking on File > Add Data > Add Basemap. 
+
+2. Add the static image that you want rectify by clicking on File > Add Data > Add Data. Navigate to the location of the image, select it, and click “Add.” (Note: If the folder containing the image is not already available in the dropdown menu to the right of “Look in,” you may have to “connect” to the folder by clicking on the folder icon with the black “+” symbol in the toolbar to the right. Select the folder, click “OK,” and the folder should become available in the main dropdown menu.) If you get a popup asking if you want to generate pyramids, click “No,” and if you get an alert labeled “Unknown Spatial Reference,” click “OK” (ArcMap is just reacting to the fact that the image doesn’t have existing geo-coordinates).
+
