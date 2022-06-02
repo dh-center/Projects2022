@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>BookPick</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/a584127b81.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<div class="img-div">
+    <img src="../images/book_back_1.jpg" width= 50% height="600">
+    <img src="../images/Book_back_2.jpg" width= 50% height="600">
+    <div class="main-text">Make your own book choice</div>
+</div>
+
+<section class="sections ftco-services">
+    <div id="myData" align="center"></div>
+    <script>
+        fetch('http://localhost:5000/api/book?weatherId=3')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                appendData(data);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+        function appendData(data) {
+            var mainContainer = document.getElementById("myData");
+            for (var i = 0; i < data.length; i++) {
+                var div = document.createElement("div");
+                div.innerHTML = data[i].name + ". (" + data[i].author + ")";
+                mainContainer.appendChild(div);
+            }
+        }
+    </script>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="footer-widget">
+                    <h2>О нас</h2>
+                    <p>Группа студентов ИТМО, которая хочет сделать мир чуточку лучше</p>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="footer-widget">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="../../About%20us.html">О проекте</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="footer-widget">
+                    <h2>Have a Questions?</h2>
+                    <ul>
+                        <li><a href="https://dh.itmo.ru/"><span class="text">DH-center, ITMO University, Saint-Petersburg, Russia</span></a></li>
+                        <li><span class="text">+7 964 322 21 62</span></li>
+                        <li><span class="text">daria_loza24@mail.ru</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

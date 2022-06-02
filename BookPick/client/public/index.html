@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>BookPick</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://kit.fontawesome.com/a584127b81.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="img-div">
+  <img src="images/book_back_1.jpg" width= 50% height="600">
+  <img src="images/Book_back_2.jpg" width= 50% height="600">
+  <div class="main-text" align="center">Make your book choice</div>
+</div>
+
+<section class="bg-primary">
+  <div class="row"></div>
+  <div class="block">
+    <div class="select-wrap">
+      <select name="" class="dws-menu" onchange="window.location.href=this.options[this.selectedIndex].value">
+        <option value="">Сентимент анализ</option>
+        <option value="./pages/sentiment_pos.html">положительная оценка</option>
+        <option value="./pages/sentiment_neg.html">негативная оценка</option>
+      </select>
+<!--      <form action="./sentiment_pos.html">-->
+<!--        <button type="submit" class="c-button">Найти</button>-->
+<!--      </form>-->
+    </div>
+  </div>
+  <div class="block">
+    <div class="select-wrap">
+      <select class="dws-menu" onchange="window.location.href=this.options[this.selectedIndex].value">
+        <option value="">Цвет</option>
+        <option value="./pages/colour_red.html">Красный</option>
+        <option value="./pages/colour_black.html">Черный</option>
+        <option value="./pages/colour_grey.html">Серый</option>
+        <option value="./pages/colour_green.html">Зеленый</option>
+        <option value="./pages/colour_white.html">Белый</option>
+        <option value="./pages/colour_blue.html">Синий</option>
+        <option value="./pages/colour_brown.html">Коричневый</option>
+        <option value="./pages/colour_pink.html">Розовый</option>
+        <option value="./pages/colour_yellow.html">Желтый</option>
+      </select>
+    </div>
+<!--    <form action="sentiment_pos.html">-->
+<!--    <button type="submit" class="c-button">Найти</button>-->
+<!--    </form>-->
+  </div>
+  <div class="block">
+    <div class="select-wrap">
+      <select class="dws-menu" onchange="window.location.href=this.options[this.selectedIndex].value">
+        <option value="">Погода</option>
+        <option value="./pages/weather_sun.html">Ясно</option>
+        <option value="./pages/weather_rain.html">Пасмурно/дождливо</option>
+        <option value="./pages/weather_freeze.html">Морозно</option>
+      </select>
+    </div>
+<!--    <form action="./weather.html">-->
+<!--      <button type="submit" class="c-button">Найти</button>-->
+<!--    </form>-->
+  </div>
+</section>
+
+<section class="sections ftco-services">
+  <div class="services" align="center">
+    <div class="icon">
+      <span class="fas fa-comment-medical"></span>
+    </div>
+    <div class="media-body">
+      <h3 class="heading">Сентимент анализ</h3>
+      <p>Выявление в текстах эмоционально окрашенной лексики, а также эмоциональной оценки мнений, высказанных авторами</p>
+    </div>
+  </div>
+
+  <div class="services" align="center">
+    <div class="icon">
+      <span class="fas fa-file-signature"></span>
+    </div>
+    <div class="media-body">
+      <h3 class="heading">NER</h3>
+      <p>Распознование именнованных сущностей помогает нам понять преобладающий цвет или погоду в книге</p>
+    </div>
+  </div>
+
+  <div class="services" align="center">
+    <div class="icon">
+      <span class="fab fa-mixcloud"></span>
+    </div>
+    <div class="media-body">
+      <h3 class="heading">Облако слов</h3>
+      <p>Облако слов показывает наиболее часто встречающиеся слова в книге</p>
+      <div class="block_cloud"><img src="../public/images/облако2.jpg">
+        <div class="block__text">
+          <h3> "МЫ"</h3>
+          <p> Замятин<br>Евгений Иванович<br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="services" align="center">
+    <div class="icon">
+      <span class="fas fa-language"></span>
+    </div>
+    <div class="media-body">
+      <h3 class="heading">NLP</h3>
+      <p> Обработка текстов на естественном языке с помощью языков программирования</p>
+    </div>
+  </div>
+</section>
+
+<section class="sections img"  style="background-image: url(images/фон.jpg); width: 100%">
+  <div class="block">
+    <div class="some-text">
+      <span>200 Книг</span>
+    </div>
+  </div>
+  <div class="block">
+    <div class="some-text">
+     <span><a href="https://pl.spb.ru" style="color: black"><span class="text">Библиотека Маяковского</span></a>
+    </div>
+  </div>
+  <div class="block">
+    <div class="some-text">
+      <span>3 фильтра</span>
+    </div>
+  </div>
+
+</section>
+
+<section class="sections">
+  <div class="row no-gutters">
+    <div class="col-md-1">
+      <div class="cover img" style="background-image: url(images/us.jpg);"></div>
+    </div>
+    <div class="col-md-1">
+      <div class="cover img" style="background-image: url(images/prestyplenie_i_nakazanie.jpg);"></div>
+    </div>
+    <div class="col-md-1">
+      <div class="cover img" style="background-image: url(images/geroy_nashego_vremeni.jpg);"></div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="footer-widget">
+                    <h2>О нас</h2>
+                    <p>Группа студентов ИТМО, которая хочет сделать мир чуточку лучше</p>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="footer-widget">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="../public/About us.html">О проекте</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="footer-widget">
+                    <h2>Have a Questions?</h2>
+                    <ul>
+                        <li><a href="https://dh.itmo.ru/"><span class="text">DH-center, ITMO University, Saint-Petersburg, Russia</span></a></li>
+                        <li><span class="text">+7 964 322 21 62</span></li>
+                        <li><span class="text">daria_loza24@mail.ru</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>

@@ -1,3 +1,0 @@
-sudo crontab -e
-#0 5 * * * cd /home/onemedia/OneMedia/BUILD_DEPLOY/database/backup && sudo  chmod 777 . && docker exec -i one_media_db /usr/bin/pg_dump -U postgres --data-only | gzip -9 > postgres-backup-tmp.sql.gz && mv postgres-backup-tmp.sql.gz postgres-backup.sql.gz
-0 4 * * * cd /home/ubuntu/OneMedia/BUILD_DEPLOY/database/backup && sudo  chmod 777 . && docker exec -i one_media_db /usr/bin/pg_dump -U postgres | gzip -9 > postgres-backup-tmp.sql.gz && mv postgres-backup-tmp.sql.gz postgres-backup.sql.gz
