@@ -1,0 +1,50 @@
+{
+    "name": "7 дней.ru",
+    "link": "https://7days.ru",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 62276",
+        "founders": "Закрытое акционерное общество \"Издательство СЕМЬ ДНЕЙ\"",
+        "address": "125080, Москва г., ш. Волоколамское, д. 4, к. 24",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://7days.ru/rss/all",
+            "type": "rss",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://7days.ru",
+        "links_tags": [],
+        "title_tag": "",
+        "author_tags": "",
+        "body_tag": [
+            "div.b-tag-box__content",
+            "div[itemprop='articleBody']",
+            "div.j-story-content",
+            "div.material-7days__box"
+        ],
+        "decompose_tags": [],
+        "text_tags": "p, blockquote, h2, h3, h4, div.recipe-7days__description, div.recipe-7days__ingredients_item, div.b-pure-content, div.video-7days__preview_box, div.video-7days__preview_rating"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "BALTNEWS Эстония",
+    "link": "https://baltnews.ee",
+    "source_meta": {
+        "type": "Информационное агентство ",
+        "license": "ИА № ФС 77 - 73480",
+        "founders": "Федеральное государственное унитарное предприятие \"Международное информационное агентство \"Россия сегодня\"",
+        "address": "119021, г. Москва, б-р Зубовский, д. 4, стр 1, 2, 3",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://baltnews.ee/sitemap_article_index.xml",
+            "type": "robots.txt",
+            "allow_redirects": true,
+            "update_start": true,
+            "index": [
+                0,
+                100,
+                1,
+                -1
+            ]
+        },
+        "main_link": "https://baltnews.ee",
+        "links_tags": [],
+        "title_tag": "h1[itemprop='headline']",
+        "author_tags": "p[class='article-header__author theme-color']",
+        "body_tag": [
+            "div[itemprop='articleBody']"
+        ],
+        "decompose_tags": [],
+        "text_tags": "p, blockquote, h3"
+    }
+}

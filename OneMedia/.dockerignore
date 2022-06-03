@@ -1,0 +1,19 @@
+# Important for build
+BUILD_DEPLOY/database
+BUILD_DEPLOY/tlg/bot/volume
+BUILD_DEPLOY/tlg/extractor/volume
+BUILD_DEPLOY/tlg/notifier/volume
+BUILD_DEPLOY/tlg/monitoring_bot/volume
+BUILD_DEPLOY/tlg/subscribers/volume
+BUILD_DEPLOY/web_crawler/volume
+BUILD_DEPLOY/vk/volume
+BUILD_DEPLOY/search/volume
+BUILD_DEPLOY/ui/volume
+BUILD_DEPLOY/grafana/volume
+JAVA_APPS/
+
+venv
+
+# pg dump
+BUILD_DEPLOY/postgres-backup.sql.gz
+BUILD_DEPLOY/postgres-backup-tmp.sql.gz

@@ -1,0 +1,45 @@
+{
+    "name": "РИА Рейтинг",
+    "link": "https://riarating.ru",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 57640",
+        "founders": "Федеральное государственное унитарное предприятие \"Международное информационное агентство \"Россия сегодня\"",
+        "address": "119021, Москва г., б-р Зубовский, д. 4, стр 1, 2, 7",
+        "language": "английский, русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://riarating.ru",
+            "type": "start_page",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://riarating.ru",
+        "links_tags": ["a[class='bottom-panel__list-item-anchor']"],
+        "title_tag": "h1[class='article-header__text']",
+        "author_tags": "",
+        "body_tag": ["article[class='article']"],
+        "decompose_tags": ["figure"],
+        "text_tags": "p, blockquote, li"
+    }
+}

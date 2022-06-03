@@ -1,0 +1,9 @@
+apiVersion: 1
+
+datasources:
+  - name: OneMediaDb
+    label: OneMediaDb
+    type: prometheus
+    access: proxy
+    url: prometheus:9090
+    isDefault: true

@@ -1,0 +1,47 @@
+{
+    "name": "Пульс Дона",
+    "link": "https://xn--80ahujedpo6f.xn--p1ai",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 74557",
+        "founders": "Мкртчян А.Э.",
+        "address": "344010, Ростовская обл., г. Ростов-на-Дону, ул. Греческого города Волос, д. 82, кв. 38",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://xn--80ahujedpo6f.xn--p1ai/feed",
+            "type": "rss",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://xn--80ahujedpo6f.xn--p1ai",
+        "links_tags": [],
+        "title_tag": "",
+        "author_tags": "",
+        "body_tag": [
+            "div.entry-content.clearfix"
+        ],
+        "decompose_tags": [],
+        "text_tags": ""
+    }
+}

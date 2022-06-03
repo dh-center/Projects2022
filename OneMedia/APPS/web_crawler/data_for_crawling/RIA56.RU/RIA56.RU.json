@@ -1,0 +1,47 @@
+{
+    "name": "RIA56.RU",
+    "link": "https://ria56.ru",
+    "source_meta": {
+        "type": "Сетевое издание ",
+        "license": "ЭЛ № ФС 77 - 74682",
+        "founders": "Государственное унитарное предприятие Оренбургской области \"Региональное информационное агентство \"Оренбуржье\"",
+        "address": "460000, Оренбургская обл., г. Оренбург, пер. Свободина, д. 9",
+        "language": "русский"
+    },
+    "crawl_data": {
+        "update_period": 300,
+        "is_debug": false,
+        "connector": {
+            "connector_type": "SOCKS5",
+            "connector_params": {
+                "limit": 200,
+                "limit_per_host": 0,
+                "force_close": true,
+                "enable_cleanup_closed": false,
+                "loop": null,
+                "verify_ssl": true,
+                "fingerprint": null,
+                "use_dns_cache": true,
+                "ttl_dns_cache": 10,
+                "ssl_context": null,
+                "local_addr": null
+            }
+        },
+        "requests_data": {
+            "headers": {},
+            "start_link": "https://ria56.ru/feed",
+            "type": "rss",
+            "allow_redirects": true,
+            "index": []
+        },
+        "main_link": "https://ria56.ru",
+        "links_tags": [],
+        "title_tag": "",
+        "author_tags": "",
+        "body_tag": [
+            "div.entry-content"
+        ],
+        "decompose_tags": [],
+        "text_tags": "p"
+    }
+}
