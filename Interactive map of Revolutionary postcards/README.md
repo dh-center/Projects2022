@@ -6,7 +6,7 @@ When we present postcards sent in the context of certain historical periods and 
 Therefore, it was necessary to implement the Digital Humanities project in the format of a web resource, which systematized and geo-visualized postcards sent during the revolution.
 ## Goals and objectives of the project
 The research goals of the Digital Humanities project are systematization of postcards to search for ancestors and displaying postcards on a map with a timeline for interpreting postcards as a source of cultural and historical information. The project promotes educational, cultural and tourism activities related to the events of the February and October revolutions of 1917-1918 that took place in Petrograd.
-The project tasks:
+### The project tasks:
 •	search for the most convenient, effective and relevant technological solutions for geovisualization of digital objects of cultural and historical heritage; 
 •	systematization of postcards, formation of a database of postcards;
 •	creation of a digital interactive exhibition that can be used by historians, culturologists, art historians, students and employees of international scientific laboratories of digital humanities research, people interested in history, genealogy researchers and others;
