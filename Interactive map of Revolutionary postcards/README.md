@@ -33,4 +33,4 @@ Setting up LAMP and Omeka using the Amazon Linux AMI consists of 5 steps:
 4.	Installing the MySQL Server and Setting up MySQL Secure Connection.
 5.	Creating Database and User for Omeka Application.
 
-Follow instructions in file [](Interactive map of Revolutionary postcards/Setting up LAMP and Omeka using the Amazon Linux AMI)
+Follow instructions in [file](Interactive map of Revolutionary postcards/Setting up LAMP and Omeka using the Amazon Linux AMI)
