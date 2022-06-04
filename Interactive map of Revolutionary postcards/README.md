@@ -7,11 +7,11 @@ Therefore, it was necessary to implement the Digital Humanities project in the f
 ## Goals and objectives of the project
 The research goals of the Digital Humanities project are systematization of postcards to search for ancestors and displaying postcards on a map with a timeline for interpreting postcards as a source of cultural and historical information. The project promotes educational, cultural and tourism activities related to the events of the February and October revolutions of 1917-1918 that took place in Petrograd.
 ### The project tasks:
-•	search for the most convenient, effective and relevant technological solutions for geovisualization of digital objects of cultural and historical heritage; 
-•	systematization of postcards, formation of a database of postcards;
-•	creation of a digital interactive exhibition that can be used by historians, culturologists, art historians, students and employees of international scientific laboratories of digital humanities research, people interested in history, genealogy researchers and others;
-•	georeferencing of the map of Petrograd and the database of postcards to the actual map of St. Petersburg;
-•	creating a timeline on the map to filter postcards by year;
-•	application of the methodology for analyzing spatially distributed data - converting coordinates from a geographical reference system into various metric systems;
-•	publication of a web resource on the Internet.
+- search for the most convenient, effective and relevant technological solutions for geovisualization of digital objects of cultural and historical heritage; 
+- systematization of postcards, formation of a database of postcards;
+- creation of a digital interactive exhibition that can be used by historians, culturologists, art historians, students and employees of international scientific laboratories of digital humanities research, people interested in history, genealogy researchers and others;
+- georeferencing of the map of Petrograd and the database of postcards to the actual map of St. Petersburg;
+- creating a timeline on the map to filter postcards by year;
+- application of the methodology for analyzing spatially distributed data - converting coordinates from a geographical reference system into various metric systems;
+- publication of a web resource on the Internet.
 
