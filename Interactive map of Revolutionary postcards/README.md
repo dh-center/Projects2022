@@ -27,10 +27,11 @@ Omeka Classic has the following system requirements:
 Because hosting on omeka.net costs up to $1000 per year and still has limited functionality, it is more effective to use third-party hosting services. To solve the problem, the most effective solution is to set up LAMP and Omeka using Amazon Linux AMI.
 ##### Setting up a web server for installing Omeka API
 Setting up LAMP and Omeka using the Amazon Linux AMI consists of 5 steps:
-1.	Setting Up Linux Machine in Amazon Web Services (AWS).
+1.	Setting Up Linux Machine in Amazon Web Services (AWS). 
 2.	Connecting to the EC2 Instance Using SSH and Upgrading Linux.
 3.	Installing the Apache Server and Creating a Sample HTML Page.
 4.	Installing the MySQL Server and Setting up MySQL Secure Connection.
 5.	Creating Database and User for Omeka Application.
 
-Follow instructions in [file](https://github.com/dh-center/Projects2022/blob/main/Interactive%20map%20of%20Revolutionary%20postcards/Setting%20up%20LAMP%20and%20Omeka%20using%20the%20Amazon%20Linux%20AMI)
+To set Up Linux Machine in Amazon Web Services (AWS) follow instructions in [file 1](https://github.com/dh-center/Projects2022/blob/main/Interactive%20map%20of%20Revolutionary%20postcards/Setting%20up%20LAMP%20and%20Omeka%20using%20the%20Amazon%20Linux%20AMI).
+To complete other steps follow instructions in [file 2](https://github.com/dh-center/Projects2022/blob/main/Interactive%20map%20of%20Revolutionary%20postcards/Terminal%20code%20for%20setting%20up%20a%20web%20server%20to%20install%20Omeka%20API) 
