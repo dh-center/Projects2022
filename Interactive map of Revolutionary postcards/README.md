@@ -15,3 +15,12 @@
 6. Application of the methodology for analyzing spatially distributed data - converting coordinates from a geographical reference system into various metric systems.
 7. Publication of a web resource on the Internet.
 ### Getting Started
+##### Implementation of the project on Omeka 
+To use the Omeka platform with the connection of the necessary plugins and the use of storage for loading objects, you need to host the site on the omeka.net servers or install the API Omeka Classic.
+Omeka Classic has the following system requirements:
+- Linux operating system
+- Apache HTTP server (with mod_rewrite enabled)
+- MySQL version 5.0 or greater
+- PHP scripting language version 5.4 or higher (with mysqli and exif extensions installed)
+- ImageMagick image manipulation software (for resizing images)
+Because hosting on omeka.net costs up to $1000 per year and still has limited functionality, it is more effective to use third-party hosting services. To solve the problem, the most effective solution is to set up LAMP and Omeka using Amazon Linux AMI.
