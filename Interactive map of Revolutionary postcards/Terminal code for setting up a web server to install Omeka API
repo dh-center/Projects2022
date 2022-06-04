@@ -7,7 +7,7 @@
 # PowerShell 7: 
 
 cd .ssh
-C:\Users\nikit\.ssh>icacls.exe lamp-omeka.pem /reset
+C:\Users\username\.ssh>icacls.exe lamp-omeka.pem /reset
 icacls.exe lamp-omeka.pem /grant:r "$($env:username):(r)"
 icacls.exe lamp-omeka.pem /inheritance:r
 
