@@ -8,4 +8,4 @@ Go to https://aws.amazon.com/ . Click Sign In to the Console button.
 ## Creating an EC2 instance
 Below the Find Services input box, enter EC2.
 On the next page, scroll below the page and click Launch Instance.
-###### Choose a Linux Machine - Amazon Linux 2 AMI (HVM) - Kernel 5.10, SSD Volume Type
+- Choose a Linux Machine - Amazon Linux 2 AMI (HVM) - Kernel 5.10, SSD Volume Type
