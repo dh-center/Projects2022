@@ -48,6 +48,14 @@ To simplify and speed up the process of adding postcard table data to the Omeka 
 ### Usage
 - To enter the platform, you need to open a browser and enter the URL = http://Public.IP.Address/omeka/admin
 - Enter login and password
+
 ![alt text](https://github.com/dh-center/Projects2022/blob/main/Interactive%20map%20of%20Revolutionary%20postcards/Screenshots/Authorization.png)
+
 - To use the interactive map go to the Neatline tab
+
+![alt text](https://raw.githubusercontent.com/dh-center/Projects2022/main/Interactive%20map%20of%20Revolutionary%20postcards/Screenshots/Neatline.png)
+
 - Select an exhibition with a map and click Fullscreen View
+
+![alt text](https://raw.githubusercontent.com/dh-center/Projects2022/main/Interactive%20map%20of%20Revolutionary%20postcards/Screenshots/Interactive%20map.png)
+
