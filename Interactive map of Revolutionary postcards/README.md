@@ -46,4 +46,7 @@ To simplify and speed up the process of adding postcard table data to the Omeka 
 - If we take the address coordinates, for example, from the Yandex.Maps service, the projection of the coordinates will be WGS 84 (EPSG:4326). Neatline only accepts spatial data in pseudo-Mercator projection (EPSG:3857). To transform the projection, I used the MyGeodata Cloud service.
 
 ### Usage
-To enter the platform, you need to open a browser and enter the URL = http://Public.IP.Address/omeka/admin
+- To enter the platform, you need to open a browser and enter the URL = http://Public.IP.Address/omeka/admin
+- Enter login and password
+- To use the interactive map go to the Neatline tab
+- Select an exhibition with a map and click Fullscreen View
