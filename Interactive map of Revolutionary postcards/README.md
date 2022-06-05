@@ -44,3 +44,6 @@ To simplify and speed up the process of adding postcard table data to the Omeka 
 - To make the project more visual and interesting, I needed to find a map of Petrograd in 1917 and convert the map image into a .tiff georeferenced format. The Neatline plugin allows you to add a map layer with a .tiff image. In order for the layer to be displayed on the map, you have to create and add a WMS Address. To do this, I used the Map Warper service.
 - Because the exhibition contains about 300 postcards, manual processing of addresses and adding points to the map takes a lot of time, so I needed to find a solution for adding geolocation using Spatial Data, namely Geometry (Well-Known Text). WKT is a text format for describing features. 
 - If we take the address coordinates, for example, from the Yandex.Maps service, the projection of the coordinates will be WGS 84 (EPSG:4326). Neatline only accepts spatial data in pseudo-Mercator projection (EPSG:3857). To transform the projection, I used the MyGeodata Cloud service.
+
+### Usage
+To enter the platform, you need to open a browser and enter the URL = http://Public.IP.Address/omeka/admin
