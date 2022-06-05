@@ -59,7 +59,7 @@ To simplify and speed up the process of adding postcard table data to the Omeka 
 
 ![alt text](https://raw.githubusercontent.com/dh-center/Projects2022/main/Interactive%20map%20of%20Revolutionary%20postcards/Screenshots/Interactive%20map.png)
 
-### Authors
+### Author
 
 ##### Nikita Galkin
 - email: galkins@niuitmo.ru
