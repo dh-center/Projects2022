@@ -35,3 +35,5 @@ Setting up LAMP and Omeka using the Amazon Linux AMI consists of 5 steps:
 
 To Set Up Linux Machine in Amazon Web Services (AWS) follow instructions in [file 1](https://github.com/dh-center/Projects2022/blob/main/Interactive%20map%20of%20Revolutionary%20postcards/Setting%20up%20LAMP%20and%20Omeka%20using%20the%20Amazon%20Linux%20AMI.md).
 To complete other steps follow instructions in [file 2](https://github.com/dh-center/Projects2022/blob/main/Interactive%20map%20of%20Revolutionary%20postcards/Terminal%20code%20for%20setting%20up%20a%20web%20server%20to%20install%20Omeka%20API.md). 
+
+To simplify and speed up the process of adding postcard table data to the Omeka collection, you need to convert data from Excel to CSV, and then import CSV files into Omeka database using a plugin "CSV Import". In order to do this, you have to brought the data in Excel to a common format and filled in the gaps.
