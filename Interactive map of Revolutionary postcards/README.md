@@ -61,8 +61,6 @@ To simplify and speed up the process of adding postcard table data to the Omeka 
 
 ### Authors
 
-Nikita Galkin
-
+##### Nikita Galkin
 email: nikita.galkin@hotmail.com
-
 Telegram: galkinsn
