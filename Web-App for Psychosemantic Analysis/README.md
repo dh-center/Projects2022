@@ -1,4 +1,4 @@
-# Project Description
+## Project Description
 The development of digital technologies today has a significant impact on all spheres of human life. The active introduction of digital media only contributes to the systematic informatization of all aspects of human life. This effect certainly has a beneficial effect with the correct use of technologies, due to which many processes are automated and optimized to achieve maximum results. 
 In this regard, the informatization of sciences related to the understanding of language and its structure in general is carried out in the same areas as other branches of science. A large number of programs and tools for natural language analysis have already been created, which are supplemented and developed every year to meet current trends in the development of science. Today, special attention is paid to the development of industries that analyze a person's feelings and perception of certain events. One of the most important areas of science today is psychosemantics.
 Psychosemantics is a branch of psychology that studies the principles of forming and functioning a personal system of meanings that reflects the processes of thinking, perception, and memory. This science studies phrases, signs, and symbols and how a person perceives and interprets them. The main task of psychosemantics is the study and reconstruction (identification, description and modeling) of not always externally manifested structures of subjective experience (systems of meanings and meanings), on the basis of which the image of the human world is built. 
@@ -7,7 +7,7 @@ Within the framework of this work, an attempt is made to develop a web applicati
 The objective of the research is to create a web application for psychosemantic analysis, in particular, to develop algorithms that allow the process optimization. This objective cannot be achieved without theoretical research.
 The practical relevance of the work lies in the application of the resulting web application for obtaining data on the phonetic meaning of the text and using the data directly in full-fledged research. This study is conducted at the intersection of psychosemantics and digital humanities research and includes methods from both disciplines. 
 
-Getting Started
+## Getting Started
 The web-app requires the script to be launched on the PC for better performance. You should also have installed Python. Keeping this in mind, these are the steps to launch the web-app:
 Download the code and unzip it (anywhere);
 1)	After you unzip the code, open the folder “Web_App_for_PA” and run command line from this folder;
