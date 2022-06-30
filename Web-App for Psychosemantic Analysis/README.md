@@ -9,10 +9,10 @@ The practical relevance of the work lies in the application of the resulting web
 
 ## Getting Started
 The web-app requires the script to be launched on the PC for better performance. You should also have installed Python. Keeping this in mind, these are the steps to launch the web-app:
-Download the code and unzip it (anywhere);
-1)	After you unzip the code, open the folder “Web_App_for_PA” and run command line from this folder;
-2)	First of all, install ‘requirements.txt’ via ‘pip install requirements.txt’ command, then print ‘python app.py’ to run the app.
-3)	After the app is launched, you’ll get these lines:
+1)  Download the code and unzip it (anywhere);
+2)	After you unzip the code, open the folder “Web_App_for_PA” and run command line from this folder;
+3)	First of all, install ‘requirements.txt’ via ‘pip install requirements.txt’ command, then print ‘python app.py’ to run the app.
+4)	After the app is launched, you’ll get these lines:
 
 
 
